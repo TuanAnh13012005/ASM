@@ -1,0 +1,314 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-heading: "Sen", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading-lv2 {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.27;
+  letter-spacing: -0.76px;
+}
+.main-content .logo {
+  width: auto;
+  height: 84px;
+}
+
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background: #fffcf4;
+}
+.header.fixed {
+  z-index: 1;
+  position: sticky;
+  top: -28px;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+  padding: 36px 0 8px;
+}
+
+.nav {
+  margin-left: auto;
+}
+.nav ul {
+  display: flex;
+}
+
+.nav a {
+  position: relative;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  padding: 8px 21px;
+}
+
+.nav li.active a,
+.nav a:hover {
+  color: #171100;
+  font-weight: 600;
+  text-shadow: 1px 0 0 currentColor;
+}
+
+.nav li.active a::after {
+  position: absolute;
+  left: 21px;
+  bottom: 6px;
+  display: block;
+  content: "";
+  width: 12px;
+  height: 2px;
+  border-radius: 1px;
+  background: #171100;
+}
+.hero {
+  padding: 56px 0 65px;
+  background: #fff;
+}
+
+.hero .body {
+  display: flex;
+}
+
+.hero .media-block {
+  width: 48%;
+}
+
+.hero .media-block .img {
+  width: 470px;
+  height: 630px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.hero .logen {
+  margin-bottom: 40px;
+  margin-left: 0;
+}
+.hero .cc {
+  font-size: 4.8rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: -1.16px;
+  color: #f01c24;
+}
+.hero .content-block {
+  width: 52%;
+  padding-left: 130px;
+  padding-top: 140px;
+}
+.hero .heading {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: -1.16px;
+}
+
+.hero .desc {
+  margin-top: 22px;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+
+.hero .desc-recent {
+  margin-top: 28px;
+}
+
+.hero .stats {
+  margin-top: 8px;
+}
+
+.hero .stats strong {
+  margin-right: 15px;
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.23;
+}
+
+.hero .stats strong:nth-child(2) {
+  margin-left: 28px;
+}
+.content-block .facebook {
+  width: 28px;
+  height: 28px;
+}
+.content-block .youtube {
+  width: 28px;
+  height: 28px;
+  margin-left: 16px;
+}
+.content-block .intasgram {
+  margin-left: 16px;
+  width: 28px;
+  height: 28px;
+}
+.hero .iconXH {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.nguoibenh {
+  padding: 65px 0;
+  margin-top: 135px;
+}
+
+.nguoibenh-top {
+  align-items: center;
+}
+.nguoibenh-top .cc3 {
+  margin-top: 16px;
+  width: 458px;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+.nguoibenh-top .cc2 {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.27;
+  letter-spacing: -0.76px;
+}
+.nguoibenh .list-cc {
+  display: flex;
+  gap: 30px;
+  margin-top: 55px;
+}
+
+.nguoibenh .cc1-1 {
+  flex: 1;
+  border-radius: 12px;
+  border: 1px solid #e2dfda;
+  background: #fff;
+}
+
+.nguoibenh .cc1-1:hover {
+  border: 1px solid transparent;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nguoibenh .cc1-1 .img {
+  border-radius: 12px 12px 0px 0px;
+  height: 278px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.nguoibenh .title {
+  padding: 16px 22px 22px;
+}
+.nguoibenh .title a {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67;
+}
+
+.nguoibenh .vanban {
+  margin-left: 6px;
+  margin-top: 6px;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+
+footer {
+  background: #fffcf4;
+  padding: 96px 135px 0;
+}
+.footer {
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554b;
+  display: flex;
+}
+.row {
+  display: flex;
+}
+.footer .row .collum {
+  width: 25%;
+}
+
+.footer .slogan {
+  margin-top: 18px;
+  max-width: 267px;
+  color: #171100;
+  font-size: 2rem;
+}
+
+.footer .linklogo {
+  display: flex;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.footer .icon {
+  width: 24px;
+  height: 24px;
+}
+.footer .diachi {
+  padding-bottom: 14px;
+  padding-right: 48px;
+  display: inline-block;
+  border-bottom: 1px solid #59554b;
+  color: #171100;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.75;
+}
+
+.footer .ullist {
+  margin-top: 28px;
+}
+.footer .ullist p {
+  margin-bottom: 12px;
+  color: #171100;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+
+.footer .ullist strong {
+  color: #0a0a0a;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.86;
+}
+.footer .ttcuoi {
+  padding: 28px 0;
+  color: #0a0a0a;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}

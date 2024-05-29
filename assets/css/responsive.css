@@ -1,0 +1,125 @@
+/* =============pc============= */
+@media (min-width: 992px) {
+  .tablet-header {
+    display: none;
+  }
+}
+/* =============tablet & mobile============= */
+@media (max-width: 991.98px) {
+  .header .nav,
+  .diachi,
+  .lienhe,
+  .khauhieu,
+  .huanchuong {
+    display: none;
+  }
+  .footer .tablet-collum {
+    display: none;
+  }
+  .header-maincontent {
+    position: relative;
+  }
+  .header .search-box {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+  }
+  .menu-header__icon {
+    position: absolute;
+    top: 33px;
+    left: 15px;
+    width: 25px;
+    height: 30px;
+    z-index: 1;
+    color: #3c1053;
+  }
+  .menu-tablet {
+    position: fixed;
+    background-color: #330099;
+    inset: 0 40% 0 0;
+    z-index: 2;
+    transform: translateX(-100%);
+    transition: 0.5s;
+    padding: 60px;
+  }
+  .menu-checkbox:checked ~ .menu-tablet {
+    transform: translateX(0);
+  }
+  .close__menu {
+    width: 24px;
+    color: #fff;
+  }
+  .logo__menu {
+    width: 84px;
+    height: auto;
+  }
+  .menu__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav__link {
+    display: block;
+  }
+  .nav__list {
+    margin-top: 20px;
+  }
+  .hero .body {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
+  .hero .body .media-block {
+    width: 100%;
+    padding-left: 0px;
+    text-align: center;
+  }
+  .hero .body .content-block {
+    width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 50px;
+    padding-right: 0px;
+  }
+  .main-content .nguoibenh-top {
+    align-items: center;
+    padding-left: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .main-content .list-cc {
+    flex-direction: column;
+  }
+  .footer .footer-content .diachi {
+    padding-right: 25px;
+  }
+  .row {
+    justify-content: space-between;
+  }
+  .nguoibenh {
+    margin-top: 20px;
+  }
+}
+
+/* =============tablet================ */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* =================mobile=============== */
+@media (max-width: 767.98px) {
+  .header .main-content .search-box {
+    display: none;
+  }
+  .main-content .list-cc {
+    padding: 0px;
+  }
+  .img-mobile {
+    width: 100%;
+    height: auto;
+  }
+  footer {
+    padding: 50px 0px 0px;
+    margin-top: 20px;
+  }
+}

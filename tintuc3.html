@@ -23,12 +23,13 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./assets/css/tintuc3.css" />
+    <link rel="stylesheet" href="./assets/css/responsive3.css" />
     <title>“Phải chiến đấu, để ngày mai sẽ khác biệt”</title>
   </head>
   <body>
     <header class="header fixed">
-      <div class="main-content">
-        <div class="hearder-menu">
+      <div class="main-content header-maincontent">
+        <div class="hearder-menu ">
           <div class="diachi">
             <p>
               <strong>Địa chỉ</strong>: Số 5, phố Phạm Văn Bạch <br />
@@ -80,6 +81,51 @@
         </ul>
       </nav>
     </header>
+    <div class="tablet-header">
+      <input
+        type="checkbox"
+        name="menu-checkbox"
+        id="menu-checkbox"
+        class="menu-checkbox"
+        hidden
+      />
+      <label for="menu-checkbox">
+        <svg
+          class="menu-header__icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+        >
+          <path
+            fill="currentColor"
+            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+      </label>
+      <div class="menu-tablet">
+        <div class="menu__top">
+          <img src="./assets/img/huyet.png" alt="Lesson." class="logo__menu" />
+          <label for="menu-checkbox"><svg class="close__menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path fill="currentColor" d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"/></svg></label>
+        </div>
+        <ul class="nav__list">
+          <li class="active-tablet activedautien">
+            <a href="#!" class="nav__link">Trang Chủ</a>
+          </li>
+          <li class="active tablet">
+            <a href="#!" class="nav__link">Giới Thiệu</a>
+          </li>
+          <li class="active tablet">
+            <a href="#!" class="nav__link">Liên Hệ</a>
+          </lic>
+          <li class="active tablet">
+            <a href="#!" class="nav__link">Góp Ý</a>
+          </lic>
+          <li class="active tablet">
+            <a href="./index.html" class="nav__link">Tin Tức</a>
+          </lic>
+        </ul>
+      </div>
+    </div>
     <main>
       <div class="hero">
         <div class="main-content">
@@ -150,6 +196,7 @@
                 <img
                   src="./assets/img/Pham-Van-Hong-ung-thu-mau-1.jpg"
                   alt=""
+                  class="img__noidung"
                 />
                 <p>
                   <em>Anh Hồng chinh phục đường chạy marathon</em>
@@ -234,7 +281,7 @@
                   >, anh Hồng kể.
                 </p>
                 <div class="anhminhhoa">
-                  <img src="./assets/img/tintuc3.jpg" alt="" />
+                  <img src="./assets/img/tintuc3.jpg" alt="" class="img__noidung"/>
                   <p>
                     <em
                       >Ở bên anh luôn có người vợ tảo tần, ngày hai bữa chị đều
@@ -286,7 +333,7 @@
                   >
                 </p>
                 <div class="anhminhhoa">
-                  <img src="./assets/img/tintuc3-2.jpg" alt="" />
+                  <img src="./assets/img/tintuc3-2.jpg" alt="" class="img__noidung"/>
                   <p>Những bước chạy của anh luôn có vợ đồng hành</p>
                 </div>
                 <p>
@@ -379,7 +426,7 @@
     <footer class="footer">
       <div class="footer-content">
         <div class="row">
-          <div class="collum">
+          <div class="collum tablet-collum">
             <img src="./assets/img/huyet.png" alt="logohuyethoc" class="logo" />
             <p class="slogan">"Nỗ lực từng giây, Bắt kịp sự sống"</p>
             <div class="iconXH linklogo">

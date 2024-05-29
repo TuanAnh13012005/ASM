@@ -321,6 +321,7 @@ footer {
   padding-bottom: 38px;
   border-bottom: 1px solid #59554b;
   display: flex;
+  margin-top: 50px;
 }
 .row {
   display: flex;

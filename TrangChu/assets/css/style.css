@@ -1,0 +1,403 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-heading: "Sen", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-content .hearder-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  align-items: center;
+}
+.main-content .diachi {
+  color: #0a0a0a;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  padding-left: 100px;
+}
+.main-content .diachi strong {
+  color: #0a0a0a;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.86;
+}
+
+.main-content .logo {
+  width: auto;
+  height: 84px;
+}
+.main-content .search-box {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 1%;
+  border-radius: 32px;
+  box-shadow: (100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.main-content .search-box input {
+  border: 0;
+  background-color: transparent;
+  font-size: 1.6rem;
+  width: 0;
+  transition: 0.8s;
+}
+.main-content .search-box:hover input {
+  width: 20rem;
+}
+.main-content .search-box button {
+  padding: 10px;
+  border: 0;
+  background-color: #3c1053;
+  color: #fff;
+  font-size: 1.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.main-content .lienhe {
+  color: #0a0a0a;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  padding-right: 100px;
+}
+.main-content {
+  width: 1400px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background: #fafad2;
+}
+.header.fixed {
+  z-index: 1;
+  position: sticky;
+  top: -193px;
+}
+
+.header .body {
+  display: flex;
+  justify-content: center;
+  padding-top: 8px;
+}
+.header .body .khauhieu {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.67;
+  font-family: var(--font-heading);
+  padding: 0px 40px;
+}
+.header .body h3 {
+  font-size: 2.8rem;
+  color: #f01c24;
+}
+.header .body h5 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #555555;
+}
+.nav {
+  display: flex;
+  margin-left: auto;
+  padding: 20px;
+  background: #ff0000;
+  justify-content: center;
+}
+.nav ul {
+  display: flex;
+}
+
+.nav a {
+  position: relative;
+  color: #fffcf4;
+  font-size: 2.2rem;
+  padding: 0px 10px 10px 50px;
+}
+
+.nav a:hover {
+  color: #000011;
+  font-weight: 600;
+  text-shadow: 1px 0 0 currentColor;
+}
+.main__img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.main__background {
+  position: relative;
+}
+.main__khauhieu {
+  position: absolute;
+  top: 70px;
+  left: 410px;
+}
+.main__khauhieu h3 {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #ff3030;
+}
+.main__khauhieu h5 {
+  margin-top: 20px;
+  font-size: 2.8rem;
+  text-align: center;
+  color: #555555;
+  text-transform: uppercase;
+}
+.main_stic {
+  display: flex;
+  position: absolute;
+  bottom: 70px;
+  left: 317px;
+}
+.img__logocheck {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+.main_stic p {
+  margin-right: 15px;
+  font-size: 2rem;
+  color: #555555;
+}
+
+.main-title {
+  margin-top: 150px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.title__top {
+  text-align: center;
+}
+.text__title h2 {
+  color: #ff3030;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.title__bottom {
+  margin-top: 60px;
+}
+.hinhhop__title {
+  display: flex;
+  justify-content: space-between;
+}
+.title__col {
+  background-color: #ff3030;
+  width: 33%;
+  height: 255px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 12px;
+}
+.icon__col_title {
+  width: 80px;
+  height: 80px;
+}
+
+.main-col1 {
+  margin-top: 150px;
+}
+
+.top__col {
+  text-align: center;
+}
+.top__col h2 {
+  font-size: 3rem;
+  color: #ff3030;
+  font-weight: 600;
+}
+.bottom__col {
+  margin-top: 60px;
+  display: flex;
+  gap: 30px;
+  padding: 0px 100px;
+}
+.col__bacsi {
+  flex: 1;
+  border-radius: 12px;
+  border: 1px solid #e2dfda;
+  background: #fff;
+  text-align: center;
+}
+.img__col {
+  width: 80%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 12px 12px 0px 0px;
+}
+.col__ten {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+.col__chucvu {
+  margin-left: 6px;
+  margin-top: 6px;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  font-style: italic;
+}
+.main-map {
+  margin-top: 150px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.main_map__top {
+  text-align: center;
+}
+.main_map__top h2 {
+  font-size: 3rem;
+  color: #ff3030;
+  font-weight: 600;
+}
+.main_map__bottom {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+.main__map {
+  max-width: 70%;
+}
+.lienhe__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.lienhehuongdan {
+  margin-top: 15px;
+}
+.lienhe__diachi,
+.lienhe__dienthoai,
+.lienhe__email {
+  margin-top: 30px;
+}
+.lienhe__text h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: #fff;
+}
+.main__lienhe p {
+  color: #fff;
+  text-align: justify;
+  font-size: 1.4rem;
+}
+.main__lienhe strong {
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.86;
+}
+.icon__lienhe {
+  width: 34px;
+  height: 34px;
+  color: #fff;
+}
+.lienhe__text {
+  padding-left: 8px;
+}
+.main__lienhe {
+  border: 10px solid #eb7153;
+  max-width: 30%;
+  background-color: #ff3030;
+  padding: 0px 20px;
+}
+.map {
+  width: 700px;
+}
+footer {
+  background: #fafad2;
+  padding: 96px 135px 0;
+}
+.footer {
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554b;
+  display: flex;
+  margin-top: 50px;
+}
+.row {
+  display: flex;
+}
+.footer .row .collum {
+  width: 25%;
+}
+
+.footer .slogan {
+  margin-top: 18px;
+  max-width: 267px;
+  color: #171100;
+  font-size: 2rem;
+}
+
+.footer .linklogo {
+  display: flex;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.footer .icon {
+  width: 24px;
+  height: 24px;
+}
+.footer .diachi {
+  padding-bottom: 14px;
+  padding-right: 48px;
+  display: inline-block;
+  border-bottom: 1px solid #59554b;
+  color: #171100;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.75;
+}
+
+.footer .ullist {
+  margin-top: 28px;
+}
+.footer .ullist p {
+  margin-bottom: 12px;
+  color: #171100;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+
+.footer .ullist strong {
+  color: #0a0a0a;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.86;
+}
+.footer .ttcuoi {
+  padding: 28px 0;
+  color: #0a0a0a;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+.footer .footer-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}

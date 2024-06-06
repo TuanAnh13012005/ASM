@@ -54,7 +54,7 @@ a {
   border: 0;
   background-color: transparent;
   font-size: 1.6rem;
-  width: 20rem;
+  width: 0;
   transition: 0.8s;
 }
 .main-content .search-box:hover input {

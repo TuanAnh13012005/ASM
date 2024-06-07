@@ -101,9 +101,8 @@ a {
   text-align: center;
   text-transform: uppercase;
   line-height: 1.67;
+  font-family: var(--font-heading);
   padding: 0px 40px;
-  font-weight: 700;
-  font-family: sans-serif;
 }
 .header .body h3 {
   font-size: 2.8rem;
@@ -123,7 +122,7 @@ a {
 }
 .nav ul {
   display: flex;
-  list-style-type: none;
+  list-style-type: none ;
 }
 
 .nav a {
@@ -139,128 +138,128 @@ a {
   text-shadow: 1px 0 0 currentColor;
 }
 footer {
-  background: #fafad2;
-  padding: 96px 135px 0;
-}
-.footer {
-  padding-bottom: 38px;
-  border-bottom: 1px solid #59554b;
-  display: flex;
-}
-.row {
-  display: flex;
-}
-.footer .row .collum {
-  width: 25%;
-}
-
-.footer .slogan {
-  margin-top: 18px;
-  max-width: 267px;
-  color: #171100;
-  font-size: 2rem;
-}
-
-.footer .linklogo {
-  display: flex;
-  gap: 18px;
-  margin-top: 18px;
-}
-
-.footer .icon {
-  width: 24px;
-  height: 24px;
-}
-.footer .diachi {
-  padding-bottom: 14px;
-  padding-right: 48px;
-  display: inline-block;
-  border-bottom: 1px solid #59554b;
-  color: #171100;
-  font-size: 2rem;
-  font-weight: 600;
-  line-height: 1.75;
-}
-
-.footer .ullist {
-  margin-top: 28px;
-}
-.footer .ullist p {
-  margin-bottom: 12px;
-  color: #171100;
-  font-size: 1.4rem;
-  line-height: 1.86;
-}
-
-.footer .ullist strong {
-  color: #0a0a0a;
-  font-size: 1.4rem;
-  font-weight: 600;
-  line-height: 1.86;
-}
-.footer .ttcuoi {
-  padding: 28px 0;
-  color: #0a0a0a;
-  text-align: center;
-  font-size: 1.4rem;
-  line-height: 1.86;
-}
-.footer .footer-content {
-  width: 1170px;
-  max-width: calc(100% - 48px);
-  margin-left: auto;
-  margin-right: auto;
-}
-.hero .tt {
-  margin: 0px 70px;
-}
-.container {
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fafad2;
+    padding: 96px 135px 0;
+  }
+  .footer {
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554b;
+    display: flex;
+  }
+  .row {
+    display: flex;
+  }
+  .footer .row .collum {
+    width: 25%;
+  }
+  
+  .footer .slogan {
+    margin-top: 18px;
+    max-width: 267px;
+    color: #171100;
+    font-size: 2rem;
+  }
+  
+  .footer .linklogo {
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+  }
+  
+  .footer .icon {
+    width: 24px;
+    height: 24px;
+  }
+  .footer .diachi {
+    padding-bottom: 14px;
+    padding-right: 48px;
+    display: inline-block;
+    border-bottom: 1px solid #59554b;
+    color: #171100;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.75;
+  }
+  
+  .footer .ullist {
+    margin-top: 28px;
+  }
+  .footer .ullist p {
+    margin-bottom: 12px;
+    color: #171100;
+    font-size: 1.4rem;
+    line-height: 1.86;
+  }
+  
+  .footer .ullist strong {
+    color: #0a0a0a;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.86;
+  }
+  .footer .ttcuoi {
+    padding: 28px 0;
+    color: #0a0a0a;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.86;
+  }
+  .footer .footer-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero .tt {
+    margin: 0px 70px;
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  text-align: center;
-  margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .form-group {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 label {
-  display: block;
-  margin-bottom: 5px;
+    display: block;
+    margin-bottom: 5px;
 }
 
 input[type="text"],
 textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 textarea {
-  height: 150px;
+    height: 150px;
 }
 
 .btn-submit {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
 .btn-submit:hover {
-  background-color: #0056b3;
+    background-color: #0056b3;
 }

@@ -101,7 +101,8 @@ a {
   text-align: center;
   text-transform: uppercase;
   line-height: 1.67;
-  font-family: var(--font-heading);
+  font-weight: 700;
+  font-family: sans-serif;
   padding: 0px 40px;
 }
 .header .body h3 {
